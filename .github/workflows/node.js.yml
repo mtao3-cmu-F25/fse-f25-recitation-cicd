@@ -23,3 +23,4 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
       - run: npm test
+      - name: curl https://api.render.com/deploy/srv-d36s0d63jp1c73bga450?key=S_LZ21MYpTUss
